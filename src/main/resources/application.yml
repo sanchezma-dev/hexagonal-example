@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: hexagonal-example
+  datasource:
+    hikari:
+      connectionTimeout: '20000'
+      maximumPoolSize: '5'
+    url: 'jdbc:postgresql://localhost:6060/hexagonal'
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: none
+
